@@ -12,9 +12,9 @@ Enter Screenshot of game running in browser here
 
 ### Features
 
-_ Start/End Game.
-_ See high score.
-\_ Remix the board.
+- Start/End Game.
+- See high score.
+- Remix the board.
 
 ### User Stories
 
@@ -22,9 +22,9 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 ## Technologies Used
 
-*Html
-*CSS
-\*JavaScript
+- Html
+- CSS
+- JavaScript
 
 ## Getting Started
 
@@ -37,4 +37,5 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements
 Good links to include are:
-\*Main Repo: https://github.com/Mysta3/simon_app/tree/master/simon_app
+
+- Main Repo: https://github.com/Mysta3/simon_app/tree/master/simon_app
