@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background: red;
+  padding: 10px;
+  font-size: 2rem;
+}
+button {
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.black {
+  background: black;
+}
+.green {
+  background: green;
+}
+.orange {
+  background: orange;
+}
+.purple {
+  background: purple;
+}
