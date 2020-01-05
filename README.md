@@ -37,5 +37,4 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements
 Good links to include are:
-A link to the project's main repository
-A link to the project's issue tracker
+\*Main Repo: https://github.com/Mysta3/simon_app/tree/master/simon_app
