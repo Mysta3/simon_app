@@ -8,10 +8,12 @@ header {
   padding: 10px;
   font-size: 2rem;
 }
-button {
+div {
   color: white;
-  font-size: 2rem;
-  margin: 0 auto;
+  margin: 5% auto;
+  width: 10%;
+  height: 25%;
+  padding: 20px;
 }
 
 .black {
@@ -25,4 +27,14 @@ button {
 }
 .purple {
   background: purple;
+}
+
+.start-panel {
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.game-panel {
+  display: none;
 }
