@@ -22,16 +22,46 @@ function startGame(evt) {
 }
 /****************************************/
 
-//Colors Light Up
+//USER INPUT Colors Light Up
 //add click event to to game-panel
-gamePanel.addEventListener('click', colorLightUp);
+gamePanel.addEventListener('click', colorOn);
 
-//box-shadow: h-offset, v-offset, blur, spread, color
-function colorLightUp(evt) {
+function colorOn(evt) {
   let colorDiv = evt.target;
   let hasColor = colorDiv.dataset.color;
-  if (hasColor) {
-    colorDiv.style.boxShadow = ` 0px 0px 30px 10px ${hasColor}`;
-    console.log(hasColor);
+  // let glowEffect = ` 0px 0px 30px 10px ${hasColor}`; May use later.
+
+  if (hasColor === 'black') {
+    colorDiv.classList.toggle(`glowEffectBlack`);
+    setTimeout(() => {
+      if (colorDiv.classList.toggle('glowEffectBlack')) {
+        colorDiv.classList.toggle('glowOff');
+      }
+    }, 500);
+    console.log(`You Clicked ${hasColor}`);
+  } else if (hasColor === 'green') {
+    colorDiv.classList.toggle(`glowEffectGreen`);
+    setTimeout(() => {
+      if (colorDiv.classList.toggle('glowEffectGreen')) {
+        colorDiv.classList.toggle('glowOff');
+      }
+    }, 500);
+    console.log(`You Clicked ${hasColor}`);
+  } else if (hasColor === 'orange') {
+    colorDiv.classList.toggle(`glowEffectOrange`);
+    setTimeout(() => {
+      if (colorDiv.classList.toggle('glowEffectOrange')) {
+        colorDiv.classList.toggle('glowOff');
+      }
+    }, 500);
+    console.log(`You Clicked ${hasColor}`);
+  } else if (hasColor === 'purple') {
+    colorDiv.classList.toggle(`glowEffectPurple`);
+    setTimeout(() => {
+      if (colorDiv.classList.toggle('glowEffectPurple')) {
+        colorDiv.classList.toggle('glowOff');
+      }
+    }, 500);
+    console.log(`You Clicked ${hasColor}`);
   }
-}
+} //end of colorOn Function

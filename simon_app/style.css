@@ -34,3 +34,24 @@ div {
   border: 1px solid black;
   text-align: center;
 }
+
+/* BRONZE STYLING */
+.glowEffectBlack {
+  box-shadow: 0px 0px 30px 10px black;
+}
+
+.glowEffectGreen {
+  box-shadow: 0px 0px 30px 10px green;
+}
+
+.glowEffectOrange {
+  box-shadow: 0px 0px 30px 10px orange;
+}
+
+.glowEffectPurple {
+  box-shadow: 0px 0px 30px 10px purple;
+}
+
+.glowOff {
+  box-shadow: 0px;
+}
