@@ -55,3 +55,10 @@ div {
 .glowOff {
   box-shadow: 0px;
 }
+
+.gameOver {
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  opacity: 0;
+}
