@@ -85,11 +85,7 @@ const colorsArray = document.querySelectorAll('.color');
 function gameLogic() {
   //add divs to array
   let colorsArray = document.querySelectorAll('.color');
-  // let randomNum = Math.floor(Math.random(1) * 4);
-  // for (let i = 0; i < colorsArray.length; i++) {
-  //   let randomArray = colorsArray[randomNum].push[i];
-  //   console.log(randomArray);
-  // }
+
 
   //iterate over array elements
   for (let i = 0; i < colorsArray.length; i++) {
