@@ -2,7 +2,7 @@ body {
   margin: 2%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 2fr;
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
@@ -29,10 +29,10 @@ div {
   margin: 5% auto;
 }
 
-.instruction {
-  grid-row: 1;
-  grid-column: 3/4;
-  margin-left: 2%;
+.instructions {
+  grid-row: 2;
+  grid-column: 1/2;
+  margin: 40px 40px;
 }
 .hide {
   color: black !important;
@@ -79,7 +79,7 @@ div {
   margin: 0;
 }
 
-.nes-btn .start-panel {
+.start-panel {
   font-family: 'Press Start 2P', cursive;
   color: black;
   font-weight: bold;
@@ -87,12 +87,9 @@ div {
   font-size: 2rem;
   text-align: center;
   grid-row: 2;
-  grid-column: 1/2;
+  grid-column: 2/4;
   width: 100%;
-  padding-top: 5%;
-  margin-left: 10%;
 }
-
 
 .gameOver {
   background-color: black;
@@ -106,26 +103,37 @@ div {
   grid-column: 4;
   width: 100%;
   padding-top: 10%;
-  margin-top: 3%;
 }
 
 /* BRONZE STYLING */
 .glowEffectBlack {
   box-shadow: 0px 0px 30px 10px black;
+  background: black;
 }
 
 .glowEffectGreen {
   box-shadow: 0px 0px 30px 10px green;
+  background: green;
 }
 
 .glowEffectOrange {
   box-shadow: 0px 0px 30px 10px orange;
+  background: orange;
 }
 
 .glowEffectPurple {
   box-shadow: 0px 0px 30px 10px purple;
+  background: purple;
 }
 
 .glowOff {
   box-shadow: 0px;
+}
+
+.tester {
+  grid-row: 4;
+  grid-column: 2/4;
+
+  border: 3px solid black;
+
 }
