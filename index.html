@@ -6,22 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Simon Says</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- NESS.CSS Library -->
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <p>Welcome</p>
+      <h1>SIMON SAYS</h1>
     </header>
 
-    <h1>SIMON SAYS</h1>
-    <div class="start-panel">Start Game</div>
+    <h2 class="nes-btn start-panel">Start Game</h2>
+    <h2 class="nes-btn is-primary instructions">Instructions</h2>
+
+    <div class="lists hide">
+      <ul class="nes-list is-disc">
+        <li>Are you looking for a challenge?</li>
+        <li>Click the Start button to begin game.</li>
+        <li>Match the glowing pattern that appears</li>
+        <li>
+          Don't mess up or else it's,
+          <span class="nes-text is-error">GAAAME OOVER!!!!!</span>
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="gameOver nes-pointer">Game Over</h2>
+
     <section class="game-panel">
-      <div data-color="black" class="color black">Black</div>
+      <div data-color="black" class="color  black">Black</div>
       <div data-color="green" class="color  green">Green</div>
-      <div data-color="orange" class="color orange">Orange</div>
+      <div data-color="orange" class="color  orange">Orange</div>
       <div data-color="purple" class="color purple">Purple</div>
     </section>
 
-    <div class="gameOver">Game Over!</div>
     <script src="script.js"></script>
   </body>
 </html>
