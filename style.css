@@ -1,17 +1,18 @@
 body {
-  margin: 2%;
+  /* margin: 40%; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-rows: 100px 100px 2fr;
   font-family: 'Open Sans', sans-serif;
   color: black;
+  grid-gap: 1em;
 }
 
 header {
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   background: black;
-  padding: 10px;
+  padding: 5px;
   font-size: 2rem;
   grid-row: 1;
   grid-column: 1 / 5;
@@ -32,10 +33,11 @@ div {
 .instructions {
   grid-row: 2;
   grid-column: 1/2;
-  margin: 40px 40px;
 }
+
+
 .hide {
-  color: black !important;
+  color: black;
   opacity: 0;
 }
 
@@ -58,6 +60,9 @@ div {
   color: white;
   background: purple;
   border-radius: 5%;
+}
+.whiteText{
+
 }
 
 /* PANEL DESIGNS */
@@ -130,10 +135,16 @@ div {
   box-shadow: 0px;
 }
 
-.tester {
+.colorCube {
+  border-radius: 40%;
   grid-row: 4;
   grid-column: 2/4;
+  border: 5px solid black;
+  padding: 10%;
 
-  border: 3px solid black;
+  /* padding: 0; */
+}
 
+ul li{
+  padding: 3% 0;
 }

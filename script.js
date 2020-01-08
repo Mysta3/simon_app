@@ -6,7 +6,7 @@ const gameOverPanel = document.querySelector('.gameOver');
 const colorsArray = document.querySelectorAll('.color');
 const instructions = document.querySelector('.instructions');
 const hiddenInstructions = document.querySelector('.lists');
-const tester = document.querySelector('.tester');
+const colorCube = document.querySelector('.colorCube');
 let computerArr = []; //computer's Array
 let userColorPicks = []; //user's array
 
@@ -42,15 +42,16 @@ function randomize() {
 
   //initiates glow
   computerArr.forEach(function(colorIndex, time) {
+    //Dan Fruth helped me with the time variable.
     // console.log(colorIndex);
 
     // let color = colorIndex; //target innerText
     setTimeout(() => {
       setTimeout(() => {
-        tester.classList.add(`glowEffect${colorIndex}`);
+        colorCube.classList.add(`glowEffect${colorIndex}`);
         setTimeout(() => {
           //if glow is on turn off glow
-          tester.classList.remove(`glowEffect${colorIndex}`);
+          colorCube.classList.remove(`glowEffect${colorIndex}`);
         }, 500);
       }, 300);
     }, time * 1000);
@@ -94,7 +95,7 @@ function userInput(evt) {
     }
   }
   // for (let i = 0; i < userColorPicks.length; i++) {
-    if (computerArr.length === userColorPicks.length) {
+  if (computerArr.length === userColorPicks.length) {
     console.log(computerArr);
     console.log(userColorPicks);
     checkFunc();

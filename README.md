@@ -12,9 +12,16 @@ Enter Screenshot of game running in browser here
 
 ### Features
 
-- Start/End Game.
-- See high score.
-- Remix the board.
+| Bronze               | Silver                      | Gold                           |
+| -------------------- | --------------------------- | ------------------------------ |
+| Start Game Button    | Use CSS Framework           | Styled to Perfection           |
+| Show Instructions    | Added Icons                 | Added Remix Mode               |
+| Hide Instructions    | Sound Effects for Main cube | Sound Effects for all features |
+| Show Game Over Panel | Minimal Animations          | Bounce Animations              |
+| Show Game Panel      |
+| Hide Game Panel      |
+| Basic Styling        |
+| Colors Light Up      |
 
 ### User Stories
 
