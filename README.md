@@ -12,16 +12,16 @@ Enter Screenshot of game running in browser here
 
 ### Features
 
-| Bronze               | Silver                      | Gold                           |
-| -------------------- | --------------------------- | ------------------------------ |
-| Start Game Button    | Use CSS Framework           | Styled to Perfection           |
-| Show Instructions    | Added Icons                 | Added Remix Mode               |
-| Hide Instructions    | Sound Effects for Main cube | Sound Effects for all features |
-| Show Game Over Panel | Minimal Animations          | Bounce Animations              |
-| Show Game Panel      |
-| Hide Game Panel      |
-| Basic Styling        |
-| Colors Light Up      |
+| Bronze                   | Silver                         | Gold                              |
+| ------------------------ | ------------------------------ | --------------------------------- |
+| [x] Start Game Button    | [x] Use CSS Framework          | [] Styled to Perfection           |
+| [x] Show Instructions    | [x] Added Icons                | [] Added Remix Mode               |
+| [x] Hide Instructions    | [] Sound Effects for Main cube | [] Sound Effects for all features |
+| [x] Show Game Over Panel | [] Minimal Animations          | [] Bounce Animations              |
+| [x] Show Game Panel      |
+| [x] Hide Game Panel      |
+| [x] Basic Styling        |
+| [x] Colors Light Up      |
 
 ### User Stories
 
