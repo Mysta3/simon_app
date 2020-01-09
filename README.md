@@ -6,7 +6,13 @@ A Simon Says application that is designed to entertain and challenge the user. M
 
 ## Short Demo
 
-![Simon Says Application](https://media.giphy.com/media/UT4YzJMRyxyNImBQ1W/giphy.gif)
+#### Version 1
+
+![Simon Says v1 Application](https://media.giphy.com/media/UT4YzJMRyxyNImBQ1W/giphy.gif)
+
+#### Version 2
+
+![Simon Says v2 Application](https://media.giphy.com/media/locrZRkTY2PnJyjp1a/giphy.gif)
 
 ## List of Features/ User Stories
 
@@ -19,7 +25,7 @@ A Simon Says application that is designed to entertain and challenge the user. M
 | [x] Start Game Button    | [x] Use CSS Framework          | [] Styled to Perfection           |
 | [x] Show Instructions    | [x] Added Icons                | [] Added Remix Mode               |
 | [x] Hide Instructions    | [] Sound Effects for Main cube | [] Sound Effects for all features |
-| [x] Show Game Over Panel | [x] Minimal Animations          | [] Bounce Animations              |
+| [x] Show Game Over Panel | [x] Minimal Animations         | [] Bounce Animations              |
 | [x] Show Game Panel      |
 | [x] Hide Game Panel      |
 | [x] Basic Styling        |
@@ -59,3 +65,7 @@ Thank you to all who helped answer questions & provided guidance.
 - Math method clarification: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 - Rotations: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
 - Page Reload: https://www.w3schools.com/jsref/met_loc_reload.asp
+- UpperCasing Ref: https://www.geeksforgeeks.org/how-to-make-first-letter-of-a-string-uppercase-in-javascript/
+- Animation Refs:
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX

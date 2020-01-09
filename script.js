@@ -90,12 +90,11 @@ function userInput(evt) {
 //CHECKING FUNCTION
 function checkFunc() {
   //JENNIFER HELPED ME WITH ADDING isGameOver variable.
+  //prevents errors from appearing in console.
   let isGameOver = false;
   //reference https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
   for (let i = 0; i < computerArr.length; i++) {
-    console.log(computerArr[i], userColorPicks[i]);
     if (computerArr[i].toLowerCase() !== userColorPicks[i].toLowerCase()) {
-      console.log('Not equal!');
       isGameOver = true;
     }
   }
@@ -111,9 +110,8 @@ function checkFunc() {
 //GAME OVER FUNCTION
 function gameOver() {
   emptyArrays();
-  // console.log('game over!');
   startButton.style.opacity = 1;
-  gamePanel.style.opacity = 0; //change game-panel to opacity 1
+  gamePanel.style.opacity = 0;
   gameOverPanel.style.opacity = 1;
   instructions.style.opacity = 0;
 }
