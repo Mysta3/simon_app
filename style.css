@@ -35,7 +35,6 @@ div {
   grid-column: 1/2;
 }
 
-
 .hide {
   color: black;
   opacity: 0;
@@ -61,8 +60,7 @@ div {
   background: purple;
   border-radius: 5%;
 }
-.whiteText{
-
+.whiteText {
 }
 
 /* PANEL DESIGNS */
@@ -97,11 +95,10 @@ div {
 }
 
 .gameOver {
-  background-color: black;
   font-family: 'Press Start 2P', cursive;
   color: white;
   font-weight: bold;
-  border: 5px solid black;
+  border: 5px solid rgb(0, 0, 0);
   font-size: 2rem;
   text-align: center;
   grid-row: 2;
@@ -131,10 +128,6 @@ div {
   background: purple;
 }
 
-.glowOff {
-  box-shadow: 0px;
-}
-
 .colorCube {
   border-radius: 40%;
   grid-row: 4;
@@ -145,6 +138,6 @@ div {
   /* padding: 0; */
 }
 
-ul li{
+ul li {
   padding: 3% 0;
 }

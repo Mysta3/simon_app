@@ -2,7 +2,7 @@
 
 ## Description
 
-A Simon Says application that is designed to entertain and challenge the user. Made for players that like to tes their memory limits while also increasing their memorization ability.
+A Simon Says application that is designed to entertain and challenge the user. Made for players that like to test their memory limits while also increasing their memorization ability.
 
 ## EXAMPLE
 
@@ -31,6 +31,7 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 - Html
 - CSS
+  -NES.css Framework
 - JavaScript
 
 ## Getting Started
