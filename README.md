@@ -6,7 +6,7 @@ A Simon Says application that is designed to entertain and challenge the user. M
 
 ## Short Demo
 
-![Simon Says Application](https://giphy.com/gifs/UT4YzJMRyxyNImBQ1W/html5)
+![Simon Says Application](https://media.giphy.com/media/UT4YzJMRyxyNImBQ1W/giphy.gif)
 
 ## List of Features/ User Stories
 
@@ -31,7 +31,7 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 ## Technologies Used
 
-- Html
+- HTML
 - CSS
   - NES.css Framework
 - JavaScript
