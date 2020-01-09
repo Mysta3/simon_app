@@ -18,6 +18,7 @@ gameOverPanel.style.opacity = 0;
 instructions.addEventListener('click', showInstructions);
 startButton.addEventListener('click', startGame);
 gamePanel.addEventListener('click', userInput);
+gameOverPanel.addEventListener('click', reloadPage);
 
 //FUNCTIONS SECTION
 function showInstructions() {
@@ -34,7 +35,7 @@ function startGame() {
   randomize();
 }
 
-//RANDOMIZE COLOR & PUSH TO COMPUTERARRAY
+//RANDOMIZE COLOR & PUSH TO COMPUTER ARRAY
 function randomize() {
   // reference: https://medium.com/@fyoiza/how-to-randomize-an-array-in-javascript-8505942e452
   let ranNum = Math.floor(Math.random() * colorsArray.length); //produce random index
@@ -61,47 +62,23 @@ function randomize() {
   });
 }
 
-//POSSIBLE REFACTOR
-//create variable, upper, to hold uppercase letter
-//create uppercase color word
-//if hasColor === hasColor
-//then push hasColor
-//interpellate uppervariable with glowEffect
-
 //User click > Color Lights Up
 function userInput(evt) {
   let colorDiv = evt.target;
   let hasColor = colorDiv.dataset.color;
+  let beginningLetter = hasColor.slice(0, 1).toUpperCase(); //create a variable, slice and uppercase first letter.
+  let endOfWord = hasColor.slice(1); //slice 2nd char to end of word on color
+  let fullWord = beginningLetter.concat(endOfWord); //concat both beginLetter & endOfWord
+  console.log(fullWord);
 
   if (hasColor) {
-    if (hasColor === 'black') {
+    if (hasColor === hasColor) {
       userColorPicks.push(hasColor);
-      colorDiv.classList.add(`glowEffectBlack`);
+      colorDiv.classList.add(`glowEffect${fullWord}`);
 
       setTimeout(() => {
-        colorDiv.classList.remove('glowEffectBlack');
-      }, 200);
-    } else if (hasColor === 'green') {
-      userColorPicks.push(hasColor);
-      colorDiv.classList.add(`glowEffectGreen`);
-
-      setTimeout(() => {
-        colorDiv.classList.remove(`glowEffectGreen`);
-      }, 200);
-    } else if (hasColor === 'orange') {
-      userColorPicks.push(hasColor);
-      colorDiv.classList.add(`glowEffectOrange`);
-
-      setTimeout(() => {
-        colorDiv.classList.remove(`glowEffectOrange`);
-      }, 200);
-    } else if (hasColor === 'purple') {
-      userColorPicks.push(hasColor);
-      colorDiv.classList.add(`glowEffectPurple`);
-
-      setTimeout(() => {
-        colorDiv.classList.remove(`glowEffectPurple`);
-      }, 200);
+        colorDiv.classList.remove(`glowEffect${fullWord}`);
+      }, 300);
     }
   }
   //Prevents CheckFunc from running until after user makes pics.
@@ -145,4 +122,9 @@ function gameOver() {
 function emptyArrays() {
   computerArr = []; //empty current Array
   userColorPicks = []; //empty current Array
+}
+
+//reload function
+function reloadPage() {
+  location.reload();
 }

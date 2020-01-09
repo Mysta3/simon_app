@@ -19,7 +19,7 @@ A Simon Says application that is designed to entertain and challenge the user. M
 | [x] Start Game Button    | [x] Use CSS Framework          | [] Styled to Perfection           |
 | [x] Show Instructions    | [x] Added Icons                | [] Added Remix Mode               |
 | [x] Hide Instructions    | [] Sound Effects for Main cube | [] Sound Effects for all features |
-| [x] Show Game Over Panel | [] Minimal Animations          | [] Bounce Animations              |
+| [x] Show Game Over Panel | [x] Minimal Animations          | [] Bounce Animations              |
 | [x] Show Game Panel      |
 | [x] Hide Game Panel      |
 | [x] Basic Styling        |
@@ -53,7 +53,9 @@ Thank you to all who helped answer questions & provided guidance.
 
 - Main Repo: https://github.com/Mysta3/simon_app/tree/master/simon_app
 - NESS.css framework: https://nostalgic-css.github.io/NES.css/
-- https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
-- https://medium.com/@fyoiza/how-to-randomize-an-array-in-javascript-8505942e452
-- https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- Comparing Arrays: https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
+- Randomizing an array's index: https://medium.com/@fyoiza/how-to-randomize-an-array-in-javascript-8505942e452
+- Box-shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+- Math method clarification: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- Rotations: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+- Page Reload: https://www.w3schools.com/jsref/met_loc_reload.asp
