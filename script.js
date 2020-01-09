@@ -1,5 +1,5 @@
 console.log('server started');
-//select button.
+//SELECTED ELEMENTS
 const startButton = document.querySelector('.start-panel');
 const gamePanel = document.querySelector('.game-panel');
 const gameOverPanel = document.querySelector('.gameOver');
@@ -10,17 +10,21 @@ const colorCube = document.querySelector('.colorCube');
 let computerArr = []; //computer's Array
 let userColorPicks = []; //user's array
 
+//HIDDEN CONTENT
 gamePanel.style.opacity = 0;
 gameOverPanel.style.opacity = 0;
 
+//EVENT LISTENERS
 instructions.addEventListener('click', showInstructions);
 startButton.addEventListener('click', startGame);
 gamePanel.addEventListener('click', userInput);
 
+//FUNCTIONS SECTION
 function showInstructions() {
   hiddenInstructions.classList.toggle('hide');
 }
 
+//INITIALIZE GAME
 function startGame() {
   startButton.style.opacity = 0;
   gamePanel.style.opacity = 1; //change game-panel to opacity 1
@@ -30,7 +34,7 @@ function startGame() {
   randomize();
 }
 
-//randomize color & push to computerArray
+//RANDOMIZE COLOR & PUSH TO COMPUTERARRAY
 function randomize() {
   // reference: https://medium.com/@fyoiza/how-to-randomize-an-array-in-javascript-8505942e452
   let ranNum = Math.floor(Math.random() * colorsArray.length); //produce random index
@@ -42,8 +46,7 @@ function randomize() {
 
   //initiates glow
   computerArr.forEach(function(colorIndex, time) {
-    //Dan Fruth helped me with the time variable.
-    // console.log(colorIndex);
+    //Dan Fruth helped me with the time variable & wrapping another setTimeout function.
 
     // let color = colorIndex; //target innerText
     setTimeout(() => {
@@ -52,13 +55,20 @@ function randomize() {
         setTimeout(() => {
           //if glow is on turn off glow
           colorCube.classList.remove(`glowEffect${colorIndex}`);
-        }, 500);
-      }, 300);
+        }, 300);
+      }, 200);
     }, time * 1000);
   });
 }
 
-//User click, lights up color
+//POSSIBLE REFACTOR
+//create variable, upper, to hold uppercase letter
+//create uppercase color word
+//if hasColor === hasColor
+//then push hasColor
+//interpellate uppervariable with glowEffect
+
+//User click > Color Lights Up
 function userInput(evt) {
   let colorDiv = evt.target;
   let hasColor = colorDiv.dataset.color;
@@ -67,45 +77,42 @@ function userInput(evt) {
     if (hasColor === 'black') {
       userColorPicks.push(hasColor);
       colorDiv.classList.add(`glowEffectBlack`);
-      // checkFunc();
+
       setTimeout(() => {
         colorDiv.classList.remove('glowEffectBlack');
-      }, 500);
+      }, 200);
     } else if (hasColor === 'green') {
       userColorPicks.push(hasColor);
       colorDiv.classList.add(`glowEffectGreen`);
-      // checkFunc();
+
       setTimeout(() => {
         colorDiv.classList.remove(`glowEffectGreen`);
-      }, 500);
+      }, 200);
     } else if (hasColor === 'orange') {
       userColorPicks.push(hasColor);
       colorDiv.classList.add(`glowEffectOrange`);
-      // checkFunc();
+
       setTimeout(() => {
         colorDiv.classList.remove(`glowEffectOrange`);
-      }, 500);
+      }, 200);
     } else if (hasColor === 'purple') {
       userColorPicks.push(hasColor);
       colorDiv.classList.add(`glowEffectPurple`);
-      // checkFunc();
+
       setTimeout(() => {
         colorDiv.classList.remove(`glowEffectPurple`);
-      }, 500);
+      }, 200);
     }
   }
-  // for (let i = 0; i < userColorPicks.length; i++) {
+  //Prevents CheckFunc from running until after user makes pics.
   if (computerArr.length === userColorPicks.length) {
-    console.log(computerArr);
-    console.log(userColorPicks);
     checkFunc();
-    // }
   }
+}
 
-  // randomize();
-} //end of userInput Function
-
+//CHECKING FUNCTION
 function checkFunc() {
+  //JENNIFER HELPED ME WITH ADDING isGameOver variable.
   let isGameOver = false;
   //reference https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
   for (let i = 0; i < computerArr.length; i++) {
@@ -134,6 +141,7 @@ function gameOver() {
   instructions.style.opacity = 0;
 }
 
+//EMPTY ARRAYS
 function emptyArrays() {
   computerArr = []; //empty current Array
   userColorPicks = []; //empty current Array

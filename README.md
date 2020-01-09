@@ -47,9 +47,13 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 ## Contributions
 
-### References
-
 Thank you to all who helped answer questions & provided guidance.
+
+### References
 
 - Main Repo: https://github.com/Mysta3/simon_app/tree/master/simon_app
 - NESS.css framework: https://nostalgic-css.github.io/NES.css/
+- https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
+- https://medium.com/@fyoiza/how-to-randomize-an-array-in-javascript-8505942e452
+- https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
