@@ -4,13 +4,15 @@
 
 A Simon Says application that is designed to entertain and challenge the user. Made for players that like to test their memory limits while also increasing their memorization ability.
 
-## EXAMPLE
+## Short Demo
 
-Enter Screenshot of game running in browser here
+![Simon Says Application](https://giphy.com/gifs/UT4YzJMRyxyNImBQ1W/html5)
 
 ## List of Features/ User Stories
 
 ### Features
+
+#### MVP
 
 | Bronze                   | Silver                         | Gold                              |
 | ------------------------ | ------------------------------ | --------------------------------- |
@@ -38,13 +40,16 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 1. Fork this Repo
 2. Clone repo to local machine
-3. Navigate and open index.html file within browser.
-4. Press Start and enjoy!
+3. Open index.html file within a browser.
+4. Press Instructions to show before you start.
+5. Press Start
+6. Game Over? Press Start again to restart game.
 
-## Contribution Guidelines
+## Contributions
 
-This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements
-Good links to include are:
+### References
+
+Thank you to all who helped answer questions & provided guidance.
 
 - Main Repo: https://github.com/Mysta3/simon_app/tree/master/simon_app
-  -NESS.css framework: https://nostalgic-css.github.io/NES.css/
+- NESS.css framework: https://nostalgic-css.github.io/NES.css/

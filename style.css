@@ -2,7 +2,7 @@ body {
   /* margin: 40%; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px 2fr;
+  grid-template-rows: 100px 100px 280px;
   font-family: 'Open Sans', sans-serif;
   color: black;
   grid-gap: 1em;
