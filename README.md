@@ -31,7 +31,7 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 - Html
 - CSS
-  -NES.css Framework
+  - NES.css Framework
 - JavaScript
 
 ## Getting Started
