@@ -1,7 +1,9 @@
+/* GENERAL STYLING RULES */
+
 body {
   /* margin: 40%; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1px 1fr 1fr 1fr 1fr 1px;
   grid-template-rows: 100px 100px 280px;
   font-family: 'Open Sans', sans-serif;
   color: black;
@@ -15,24 +17,32 @@ header {
   padding: 5px;
   font-size: 2rem;
   grid-row: 1;
-  grid-column: 1 / 5;
+  grid-column: 1 / 7;
+}
+div {
+  margin: 5% auto;
 }
 
 h1 {
   color: lightgrey;
   font-size: 4rem;
   text-align: center;
-  grid-row: 2;
-  grid-column: 1/5;
-}
-
-div {
-  margin: 5% auto;
+  /* grid-row: 2; */
+  /* grid-column: 2/6; */
 }
 
 .instructions {
   grid-row: 2;
-  grid-column: 1/2;
+  grid-column: 2/3;
+}
+
+.lists{
+  grid-row: 3;
+  grid-column: 2/3;
+}
+
+ul li {
+  padding: 3% 0;
 }
 
 .hide {
@@ -60,8 +70,6 @@ div {
   background: purple;
   border-radius: 5%;
 }
-.whiteText {
-}
 
 /* PANEL DESIGNS */
 .game-panel {
@@ -69,7 +77,7 @@ div {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-row: 3;
-  grid-column: 2/4;
+  grid-column: 3/5;
   border: 2px solid white;
   margin-top: 5%;
 }
@@ -90,7 +98,7 @@ div {
   font-size: 2rem;
   text-align: center;
   grid-row: 2;
-  grid-column: 2/4;
+  grid-column: 3/5;
   width: 100%;
 }
 
@@ -102,7 +110,7 @@ div {
   font-size: 2rem;
   text-align: center;
   grid-row: 2;
-  grid-column: 4;
+  grid-column: 5;
   width: 100%;
   padding-top: 10%;
 }
@@ -129,15 +137,9 @@ div {
 }
 
 .colorCube {
-  border-radius: 40%;
+  border-radius: 90%;
   grid-row: 4;
-  grid-column: 2/4;
+  grid-column: 3/5;
   border: 5px solid black;
   padding: 10%;
-
-  /* padding: 0; */
-}
-
-ul li {
-  padding: 3% 0;
 }
