@@ -10,7 +10,8 @@ A Simon Says application that is designed to entertain and challenge the user. M
 - Lack of planning before hand. (root cause)
 - Randomizing index's in array.
 - Comparing Array index's.
-- Imposter Syndrome
+- Imposter Syndrome.
+- Focusing on one thing at a time.
 
 ## Methods For Resolutions
 
@@ -29,6 +30,7 @@ A Simon Says application that is designed to entertain and challenge the user. M
 - PLAN.
 - Positive Reinforcement goes along way.
 - Take Breaks when YOU need to.
+- Utilize Todoist App to stay focused.
 
 ## Notes
 
