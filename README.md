@@ -42,6 +42,8 @@ Players that enjoy a game of memorization & patterns who may want to put their s
   - NES.css Framework
     - https://nostalgic-css.github.io/NES.css/
 - JavaScript
+  - Howler.JS
+    - https://github.com/goldfire/howler.js#documentation
 
 ## Getting Started
 
