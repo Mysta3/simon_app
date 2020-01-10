@@ -1,4 +1,5 @@
 console.log('server started');
+
 //SELECTED ELEMENTS
 const startButton = document.querySelector('.start-panel');
 const gamePanel = document.querySelector('.game-panel');
@@ -19,6 +20,23 @@ instructions.addEventListener('click', showInstructions);
 startButton.addEventListener('click', startGame);
 gamePanel.addEventListener('click', userInput);
 gameOverPanel.addEventListener('click', reloadPage);
+
+//HOWLERJS FOR AUDIO
+setTimeout(() => {
+  new Howl({
+    src: ['sounds/piston-3.mp3']
+  }).play();
+}, 1000);
+
+//POKEBALL SOUND
+let pokeSound = new Howl({
+  src: ['sounds/pokeballSound (1).mp3']
+});
+
+//GAMEOVER SOUND
+let gameOverSound = new Howl({
+  src: ['sounds/gameOverSound.mp3']
+});
 
 //FUNCTIONS SECTION
 function showInstructions() {
@@ -52,6 +70,7 @@ function randomize() {
     // let color = colorIndex; //target innerText
     setTimeout(() => {
       setTimeout(() => {
+        pokeSound.play();
         colorCube.classList.add(`glowEffect${colorIndex}`);
         setTimeout(() => {
           //if glow is on turn off glow
@@ -62,7 +81,7 @@ function randomize() {
   });
 }
 
-//User click > Color Lights Up
+//USER CLICK > COLORS LIGHT UP
 function userInput(evt) {
   let colorDiv = evt.target;
   let hasColor = colorDiv.dataset.color;
@@ -109,6 +128,7 @@ function checkFunc() {
 
 //GAME OVER FUNCTION
 function gameOver() {
+  gameOverSound.play();
   emptyArrays();
   startButton.style.opacity = 1;
   gamePanel.style.opacity = 0;

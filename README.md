@@ -26,7 +26,7 @@ A Simon Says application that is designed to entertain and challenge the user. M
 | [x] Show Instructions    | [x] Added Icons                | [] Added Remix Mode               |
 | [x] Hide Instructions    | [] Sound Effects for Main cube | [] Sound Effects for all features |
 | [x] Show Game Over Panel | [x] Minimal Animations         | [] Bounce Animations              |
-| [x] Show Game Panel      |
+| [x] Show Game Panel      | [] Mobile Version              |
 | [x] Hide Game Panel      |
 | [x] Basic Styling        |
 | [x] Colors Light Up      |
@@ -40,6 +40,7 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 - HTML
 - CSS
   - NES.css Framework
+    - https://nostalgic-css.github.io/NES.css/
 - JavaScript
 
 ## Getting Started
@@ -69,3 +70,6 @@ Thank you to all who helped answer questions & provided guidance.
 - Animation Refs:
   - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
   - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX
+- Browser Icon Creation: https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website
+- Pokeball Sound Effect: https://www.youtube.com/watch?v=nAaKLZF1u2U&list=PL1RS4yMUTythRU25Dry63Hkozr7YuqNmg&index=5
+- Piston-3 sound effect: https://github.com/jonobr1/Neuronal-Synchrony/tree/master/assets/C

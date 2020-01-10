@@ -108,7 +108,7 @@ ul li {
   color: white;
   font-weight: bold;
   border: 5px solid rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   grid-row: 2;
   grid-column: 5;
@@ -147,7 +147,6 @@ ul li {
 }
 
 footer {
-
   grid-row: 3;
   grid-column: 5;
 }
@@ -158,22 +157,30 @@ footer {
   grid-template-columns: 1fr 32px;
 }
 
-.nes-icons .github{
+.nes-icons .github {
   grid-row: 2;
   grid-column: 2;
 }
 
-.nes-icons .linkedin{
+.nes-icons .linkedin {
   grid-row: 1;
   grid-column: 2;
 }
 /* Animations */
-@keyframes spin {
-  from {
-    transform: rotate(0);
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(15px);
+  }
+
+  75% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -187,7 +194,7 @@ footer {
 }
 
 .colorCube {
-  animation: spin 3s 1 2s linear;
+  animation: bounce 1s 1 linear;
 }
 
 .nes-ash {
