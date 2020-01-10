@@ -94,7 +94,7 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 5. Press Start.
 6. Game Over? Press Start again to restart game.
 
-## Contributions
+## Conclusion
 
 Thank you to all who helped answer questions & provided guidance.
 
