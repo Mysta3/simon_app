@@ -4,6 +4,44 @@
 
 A Simon Says application that is designed to entertain and challenge the user. Made for players that like to test their memory limits while also increasing their memorization ability.
 
+## Challenges
+
+- Breaking Down the big picture into smaller pieces.
+- Lack of planning before hand. (root cause)
+- Randomizing index's in array.
+- Comparing Array index's.
+- Imposter Syndrome
+
+## Methods For Resolutions
+
+- Think about the higher level functioning.
+- Write it out.
+- create a FlowChart illustrating what the operation "should do".
+- Google for solution.
+- Seek help through peers/TA's.
+
+## What I Learned
+
+- Take the time to plan out first.
+- Put pen to paper.
+  - Do not try and hold all your ideas in your head.
+- PLAN.
+- PLAN.
+- Positive Reinforcement goes along way.
+- Take Breaks when YOU need to.
+
+## Notes
+
+![Project 1 notes](https://imgur.com/a/jUiIZ9m)
+
+### WireFrame
+
+![Project 1 WireFrame](https://imgur.com/a/vcp63P8)
+
+### FlowChart
+
+![Project 1 FlowChart](https://imgur.com/a/wlAdpTE)
+
 ## Short Demo
 
 #### Version 1
@@ -20,13 +58,13 @@ A Simon Says application that is designed to entertain and challenge the user. M
 
 #### MVP
 
-| Bronze                   | Silver                         | Gold                              |
-| ------------------------ | ------------------------------ | --------------------------------- |
-| [x] Start Game Button    | [x] Use CSS Framework          | [] Styled to Perfection           |
-| [x] Show Instructions    | [x] Added Icons                | [] Added Remix Mode               |
-| [x] Hide Instructions    | [] Sound Effects for Main cube | [] Sound Effects for all features |
-| [x] Show Game Over Panel | [x] Minimal Animations         | [] Bounce Animations              |
-| [x] Show Game Panel      | [] Mobile Version              |
+| Bronze                   | Silver                          | Gold                               |
+| ------------------------ | ------------------------------- | ---------------------------------- |
+| [x] Start Game Button    | [x] Use CSS Framework           | [] Styled to Perfection            |
+| [x] Show Instructions    | [x] Added Icons                 | [] Added Remix Mode                |
+| [x] Hide Instructions    | [x] Sound Effects for Main cube | [x] Sound Effects for all features |
+| [x] Show Game Over Panel | [x] Minimal Animations          | [x] Bounce Animations              |
+| [x] Show Game Panel      | [] Mobile Version               |
 | [x] Hide Game Panel      |
 | [x] Basic Styling        |
 | [x] Colors Light Up      |
@@ -47,11 +85,11 @@ Players that enjoy a game of memorization & patterns who may want to put their s
 
 ## Getting Started
 
-1. Fork this Repo
-2. Clone repo to local machine
+1. Fork this Repo.
+2. Clone repo to local machine.
 3. Open index.html file within a browser.
 4. Press Instructions to show before you start.
-5. Press Start
+5. Press Start.
 6. Game Over? Press Start again to restart game.
 
 ## Contributions
