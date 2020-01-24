@@ -38,11 +38,11 @@ A Simon Says application that is designed to entertain and challenge the user. M
 
 ### WireFrame
 
-![Project 1 WireFrame](https://imgur.com/a/vcp63P8)
+![Project 1 WireFrame](https://i.imgur.com/nlcU2pL.jpg)
 
 ### FlowChart
 
-![Project 1 FlowChart](https://imgur.com/a/wlAdpTE)
+![Project 1 FlowChart](https://i.imgur.com/EMEb95K.jpg)
 
 ## Short Demo
 
