@@ -34,7 +34,7 @@ A Simon Says application that is designed to entertain and challenge the user. M
 
 ## Notes
 
-![Project 1 notes](https://imgur.com/a/jUiIZ9m)
+![Project 1 notes](https://imgur.com/aJbaxXe)
 
 ### WireFrame
 
